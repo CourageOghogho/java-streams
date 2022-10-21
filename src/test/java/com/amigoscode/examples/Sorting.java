@@ -55,7 +55,10 @@ public class Sorting {
                 .filter(car -> car.getColor().equalsIgnoreCase("blue"))
                 .sorted(Comparator.comparing(Car::getPrice).reversed())
                 .limit(10)
+
+
                 .collect(Collectors.toList());
+
         topTen.forEach(System.out::println);
     }
 
