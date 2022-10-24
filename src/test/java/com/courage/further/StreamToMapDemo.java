@@ -18,5 +18,11 @@ public class StreamToMapDemo {
                 .collect(Collectors.toMap(s -> s , s -> s.length(), (s1, s2) -> s1));
 
         System.out.println(nameMap);
+
+        nameMap.entrySet().stream()
+                .collect(Collectors.toSet())
+                .forEach(System.out::println);
+
+
     }
 }
