@@ -16,8 +16,7 @@ public class ProductOfIntegerArrayList {
            newArray.add(product);
            product=1;
        }
-        System.out.println(newArray.toString());
-        return new ArrayList<>();
+        return newArray;
     }
 
     public static void main(String[] args) {
@@ -26,8 +25,7 @@ public class ProductOfIntegerArrayList {
         newArray.add(8);
         newArray.add(1);
         newArray.add(3);
-        productArray(newArray);
-
+        System.out.println(productArray(newArray).toString());
     }
 
 }
