@@ -1,4 +1,4 @@
-package com.amigoscode.beans;
+package com.courage.beans;
 
 public class PersonDTO {
 

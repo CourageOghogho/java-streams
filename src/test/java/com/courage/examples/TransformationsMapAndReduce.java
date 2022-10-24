@@ -1,9 +1,9 @@
-package com.amigoscode.examples;
+package com.courage.examples;
 
-import com.amigoscode.beans.Car;
-import com.amigoscode.beans.Person;
-import com.amigoscode.beans.PersonDTO;
-import com.amigoscode.mockdata.MockData;
+import com.courage.beans.Car;
+import com.courage.beans.Person;
+import com.courage.beans.PersonDTO;
+import com.courage.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

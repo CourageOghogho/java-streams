@@ -1,8 +1,8 @@
-package com.amigoscode.examples;
+package com.courage.examples;
 
 
-import com.amigoscode.beans.Car;
-import com.amigoscode.mockdata.MockData;
+import com.courage.beans.Car;
+import com.courage.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

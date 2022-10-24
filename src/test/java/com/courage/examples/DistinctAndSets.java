@@ -1,4 +1,4 @@
-package com.amigoscode.examples;
+package com.courage.examples;
 
 
 import org.junit.jupiter.api.Test;
